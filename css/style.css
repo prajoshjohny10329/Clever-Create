@@ -11637,6 +11637,26 @@ ol.commentlist li::after {
 	border-bottom: double 5px var(--theme-color);
 
 }
+/* founder */
+.founder-div{
+	display: flex;
+	padding: 20px 0px;
+}
+.founder-single{
+	padding: 10px 15px;
+	align-content: end;
+	img{
+		width: 80px;
+		border-radius: 100px;
+	}
+	h3{
+		color: #c9c9c9;
+		margin: 0px 0px 5px;
+	}
+	h4{
+		margin: 0px 0px 5px;
+	}
+}
 .services-box-div{	
 	display: flex;
 	justify-content: center;
