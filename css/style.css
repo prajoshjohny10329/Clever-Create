@@ -11657,6 +11657,19 @@ ol.commentlist li::after {
 		margin: 0px 0px 5px;
 	}
 }
+.section-main-title{
+	color: #fff;
+	text-transform: uppercase;
+	padding: 20px 0px 10px;
+	margin: 0px;
+}
+.section-sub-title{
+	color: var(--theme-color);
+	margin: 0px;
+}
+.section-para{
+	color: #adadad;
+}
 .services-box-div{	
 	display: flex;
 	justify-content: center;
