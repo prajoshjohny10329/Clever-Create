@@ -1,4 +1,31 @@
-
+@charset "UTF-8";
+:root {
+  --theme-color: #ffb804;
+  --title-color: #24231D;
+  --body-color: #878680;
+  --smoke-color: #F8F7F0;
+  --smoke-color2: #EDF7ED;
+  --smoke-color3: #F5F5F6;
+  --smoke-color4: #F4F4F4;
+  --smoke-color5: #F0F2F4;
+  --black-color: #202020;
+  --gray-color: #333F4D;
+  --white-color: #ffffff;
+  --light-color: #9fa2ad;
+  --yellow-color: #FFB539;
+  --success-color: #28a745;
+  --error-color: #dc3545;
+  --border-color: #E3E3E3;
+  --title-font: "Manrope", sans-serif;
+  --body-font: "Manrope", sans-serif;
+  --icon-font: "Font Awesome 5 Free";
+  --main-container: 1296px;
+  --container-gutters: 24px;
+  --section-space: 120px;
+  --section-space-mobile: 80px;
+  --section-title-space: 65px;
+  --ripple-ani-duration: 5s;
+}
 /*======================================*/
 @import url("responsive.css");
 /* <link href="https://fonts.cdnfonts.com/css/century-gothic-paneuropean" rel="stylesheet"> */
@@ -9395,7 +9422,14 @@ footer .container {
 	6. scroll top btn css
 -------------------------------------*/
 .bottom-whatsapp:hover{
-background-color: #fff !important;
+background-color: #000 !important;
+color: green;
+}
+.fa-whatsapp{
+	color: var(--theme-color);
+}
+.fa-whatsapp:hover{
+	color: green;
 }
 button.scroltop { 
 	height: 55px;  
@@ -9583,7 +9617,7 @@ button.scroltop span {
 23. PAGE-CONTENT
 ======================================*/
 .page-wraper { 
-	background:#fff;
+	background:#000;
 }
 .page-content { 
 	position:relative;
@@ -11602,4 +11636,23 @@ ol.commentlist li::after {
 }
 .footer-link:hover{
 	color: var(--yellow-color);
+}
+
+/* clever style  */
+section{
+	padding: 120px 50px;
+}
+.section-title{
+	color: var(--theme-color) !important;
+	font-size: 43px !important;
+	margin-bottom: 10px !important; 
+}
+.section-title-span{
+	font-size: 22px;
+  	color: #333;
+	line-height: 43px;
+}
+.section-para{
+	font-size: 16px;
+  	color: #b9b9b9;
 }
