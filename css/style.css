@@ -11719,3 +11719,8 @@ section{
 .widget-title::after{
 	background-color: var(--theme-color);
 }
+@media only screen and (max-width: 768px) {
+    section{
+        padding: 50px 10px !important;
+    }
+}
