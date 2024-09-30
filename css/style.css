@@ -7157,8 +7157,8 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 	transition: all 0.3s ease;
 }
 .header-nav .nav > li .sub-menu {
-	background-color: #ffffff;
-	border: 1px solid #f4f4f4;
+	background-color: #000;
+	border: 1px solid #000;
 	display: block;
 	left: 0;
 	list-style: none;
@@ -7171,14 +7171,14 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 	z-index: 10;
 }
 .header-nav .nav > li .sub-menu li {
-	border-bottom: 1px solid #f4f4f4;
+	border-bottom: 1px solid #ffb8041a;
 	position: relative;
 	text-transform:none;
 }
 .header-nav .nav > li .sub-menu li a {
-	color:#474747;
+	color:#fff;
 	display: block;
-	font-size: 13px;
+	font-size: 14px;
 	padding: 10px 20px;
 }
 .header-nav .nav > li .sub-menu li a:hover {
@@ -9245,12 +9245,18 @@ header .logo{
 	padding:50px 0;
 }
 .footer-bottom { 
-	padding:0px 0px 30px 0px; 
+	padding:15px; 
 	color:#787878; 
 	font-size:13px;
+	width: 100%;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	background: #020202 !important;
 }
 .footer-bottom .copyrights-text { 
 	color:#787878; 
+	text-align: center;
 }
 .footer-bottom .copyrights-nav { 
 	list-style:none;
@@ -9291,7 +9297,7 @@ header .logo{
 	 background-color:#000;	
 }
 .footer-dark .footer-bottom { 
-	background-color:#0e0e0e;  
+	background-color:#000;  
 }
 .footer-dark .footer-top h1, 
 .footer-dark .footer-top h2,
@@ -11686,7 +11692,7 @@ ol.commentlist li::after {
   	padding: 0px 3px 10px 0px;
 }
 .footer-link{
-	color: #999;
+	color: #d5d5d5;
 }
 .footer-link:hover{
 	color: var(--yellow-color);
@@ -11709,4 +11715,7 @@ section{
 .section-para{
 	font-size: 16px;
   	color: #b9b9b9;
+}
+.widget-title::after{
+	background-color: var(--theme-color);
 }
