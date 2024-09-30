@@ -1556,6 +1556,9 @@ ol.list-num-count.list-outline-none > li:before {
 	-ms-transform: skewX(20deg);
 	transform: skewX(20deg);
 }
+.wt-tilte{
+	color: #fff;
+}
 .wt-box[class*="border-"],
 .wt-info[class*="border-"],
 .wt-icon-box-wraper[class*="border-"] {
@@ -11518,7 +11521,7 @@ ol.commentlist li::after {
 	padding: 15px 14px ;
 }
 .services-box{
-	box-shadow: 6px 4px 10px;
+	box-shadow: 0px 0px 6px 0px #111111;
 }
 .services-box:hover{
 	margin-top: -15px;
