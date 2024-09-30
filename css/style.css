@@ -44,7 +44,7 @@ body {
 	font-family: 'Century Gothic Paneuropean', sans-serif;
 	font-size:14px;
 	font-weight:400; 
-	color:#767676;
+	color:#b5b5b5;
 	padding:0;
 	margin:0; 
 	overflow-x: hidden;
@@ -232,6 +232,8 @@ h6 {
 p {
   line-height:24px;
   margin-bottom:24px;
+  font-size: 16px;
+  color: #b9b9b9;
 }
 strong { 
 	font-weight:600;
@@ -11625,17 +11627,21 @@ ol.commentlist li::after {
 }
 .see-more-btn-2{
 	background: #000;
-	color: #333333;
 	padding: 9px 20px;
 	font-weight: bold;
 	font-size: larger;
-    box-shadow: 6px 7px 10px 0px #00000045;
 	border-bottom: double 5px #fff;
-}
-.see-more-btn-2:hover{
 	color: #fff;
 	border-bottom: double 5px var(--theme-color);
-
+	margin-bottom: 30px;
+}
+.see-more-btn-2:hover{
+	color: var(--theme-color);
+	border-bottom: double 5px #fff;
+}
+.index-single-services{
+	padding-bottom: 80px;
+	margin-bottom: 10px;
 }
 /* founder */
 .founder-div{
@@ -11666,9 +11672,6 @@ ol.commentlist li::after {
 .section-sub-title{
 	color: var(--theme-color);
 	margin: 0px;
-}
-.section-para{
-	color: #adadad;
 }
 .services-box-div{	
 	display: flex;
