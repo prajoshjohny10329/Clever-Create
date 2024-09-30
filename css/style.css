@@ -9288,7 +9288,7 @@ header .logo{
 	2. Footer dark version css
 -------------------------------------*/
 .footer-dark .footer-top  {
-	 background-color:#1a1a1a;	
+	 background-color:#000;	
 }
 .footer-dark .footer-bottom { 
 	background-color:#0e0e0e;  
