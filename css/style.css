@@ -11621,11 +11621,12 @@ ol.commentlist li::after {
 	font-weight: bold;
 	font-size: larger;
     box-shadow: 6px 7px 10px 0px #00000045;
+	border: solid 0.5px;
 }
 .see-more-btn:hover{
 	color: #000;
 	background : white;
-	box-shadow: 9px 6px 10px 0px #a5a5a5;
+	box-shadow: 4px 4px 0px 0px #ffb8045c;
     border: solid #f0f0f0 0.1px;
 }
 .see-more-btn-2{
