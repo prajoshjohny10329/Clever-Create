@@ -11745,3 +11745,8 @@ section{
 	padding-top: 10px;
 	margin-bottom: 5px;
 }
+.items-center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
