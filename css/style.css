@@ -6539,6 +6539,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 	color:#ffffff;
 	padding:10px 0;
 	/*background-color:#212427;*/
+	border-bottom: solid 1px #ffffff1a;
 }
 .top-bar .fa {
 	vertical-align: middle;
