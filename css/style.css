@@ -7127,7 +7127,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 }
 .header-nav .nav > li > a {
 	border-radius: 0;
-	color: #555;
+	color: #fff;
 	font-size: 14px;
 	font-weight:600;
 	padding:35px 12px;
@@ -11733,4 +11733,15 @@ section{
 	.header-info{
 		display: none;
 	}
+}
+.li-color> li{
+	color: var(--theme-color);
+}
+.li-color> li>span{
+	color: var(--white-color);
+}
+.p-for-services{
+	color: #fff;
+	padding-top: 10px;
+	margin-bottom: 5px;
 }
