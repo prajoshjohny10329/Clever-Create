@@ -8561,7 +8561,7 @@ header .logo{
 .header-style-1 .header-nav .nav {float: right;display: flex;justify-content: flex-end;flex-direction: inherit;}
 .header-style-1 .header-nav .nav > li > a{display: block;}
 .header-style-1 .header-middle .container{display: flex; align-items: center; justify-content: space-between;}
-.header-style-1 .navbar-toggler .icon-bar{background: #010e2a; height: 3px;border-radius: 0;display: block;width: 22px;}
+.header-style-1 .navbar-toggler .icon-bar{background: #fff; height: 3px;border-radius: 0;display: block;width: 22px;}
 .header-style-1 .navbar-toggler .icon-bar + .icon-bar {margin-top: 4px;}
 .header-style-1 .header-nav .has-child.nav-active>a+.submenu-toogle.fa.fa-angle-right:before {content: "\f107";}
 
@@ -11723,6 +11723,9 @@ section{
 	}
 	.header-info{
 		display: none;
+	}
+	.wt-topbar-right{
+		display: none !important;
 	}
 }
 @media only screen and (max-width: 991px) {
