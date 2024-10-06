@@ -11646,7 +11646,7 @@ ol.commentlist li::after {
 	border-bottom: double 5px #fff;
 }
 .index-single-services{
-	padding-bottom: 80px;
+	/* padding-bottom: 80px; */
 	margin-bottom: 10px;
 }
 /* founder */
