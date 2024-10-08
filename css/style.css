@@ -11770,3 +11770,17 @@ section{
 	padding: 30px 45px;
 	margin: 10px 0px;
 }
+.submit-btn{
+	margin-top: 20px;
+	padding: 8px 30px;
+	border-radius: 9px;
+	text-transform: uppercase;
+	font-weight: bold;
+	background: #0d0d0d;
+	border: solid #0d0d0d;
+	color: #fff;
+}
+.submit-btn:hover{
+	background: var(--theme-color);
+	border: solid var(--theme-color);
+}
