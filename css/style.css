@@ -11763,3 +11763,10 @@ section{
 .a-active{
 	color: var(--theme-color) !important;
 }
+.form-div{
+	display: flex;
+	justify-content: center;
+	background-color: #040404;
+	padding: 30px 45px;
+	margin: 10px 0px;
+}
