@@ -11804,4 +11804,8 @@ section{
 .form-control-1:focus {
 	outline: none !important;
 	box-shadow: none !important;
-  }
+}
+.new-shadow{
+	box-shadow: 0px 0px 6px 0px #ffffff12;
+	min-height: 114px !important;
+}
