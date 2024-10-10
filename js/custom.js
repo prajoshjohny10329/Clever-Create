@@ -1,60 +1,4 @@
-/* =====================================
-All JavaScript fuctions Start
-======================================*/
 
-/*--------------------------------------------------------------------------------------------
-	document.ready ALL FUNCTION START
----------------------------------------------------------------------------------------------*/
- /* 
-
-	> Top Search bar Show Hide function by = custom.js  
-	> On scroll content animated function by = Viewportchecker.js 	
-	> Video responsive function by = custom.js 
-	> magnificPopup function	by = magnific-popup.js
-	> magnificPopup for video function	by = magnific-popup.js
-	> Vertically center Bootstrap modal popup function by = custom.js
-	> Main menu sticky on top  when scroll down function by = custom.js
-	> page scroll top on button click function by = custom.js	
-	> input type file function by = custom.js	 
-	> input Placeholder in IE9 function by = custom.js
-    > box height match window height according function by = custom.js 	
-	> footer fixed on bottom function by = custom.js	
-	> accordion active calss function by = custom.js
-	> Top cart list Show Hide function by = custom.js
-    > Nav submenu show hide on mobile by = custom.js
-	> Home Carousel_1 Full Screen with no margin function by = owl.carousel.js
-	>  related with content function by = owl.carousel.js
-	> Fade slider for home function by = owl.carousel.js
-	>  Blog post Carousel function by = owl.carousel.js 
-	> blog Carousel_1 Full Screen with no margin function by = owl.carousel.js //
-	> Home4 services Carousel_1 Full Screen with no margin function by = owl.carousel.js  //
-	> home4_logo_carousel() function by = owl.carousel.js //
- */	
-
-/*--------------------------------------------------------------------------------------------
-	window on load ALL FUNCTION START
----------------------------------------------------------------------------------------------*/
- /* 
-	 > equal each box 
-	 > skills bar function function by  = custom.js 
-		2.1 skills bar tooltips
-		2.2 skills bar widths
-	 > Bootstrap Select box function by  = bootstrap-select.min.js 
-	 > TouchSpin box function by  = jquery.bootstrap-touchspin.js 
-	 > TouchSpin box function by  = jquery.bootstrap-touchspin.js 
-	 > masonry function function by = isotope.pkgd.min.js
-	 > page loader function by = custom.js
- */	
-/*--------------------------------------------------------------------------------------------
-	Window Scroll ALL FUNCTION START
----------------------------------------------------------------------------------------------*/
- /*
- 	 > Window on scroll header color fill 
- */
-
-/*--------------------------------------------------------------------------------------------
-	Window Resize ALL FUNCTION START
----------------------------------------------------------------------------------------------*/
 
 (function ($) {
 	
@@ -62,6 +6,7 @@ All JavaScript fuctions Start
 /*--------------------------------------------------------------------------------------------
 	document.ready ALL FUNCTION START
 ---------------------------------------------------------------------------------------------*/	
+
 
 //  > Top Search bar Show Hide function by = custom.js =================== //	
 	 function site_search(){
@@ -702,3 +647,6 @@ All JavaScript fuctions Start
 
 
 })(window.jQuery);
+
+// custom js for dynamic year in footer 
+document.getElementById('copy-right-text').innerText = `© ${new Date().getFullYear()} Your Company. All Rights Reserved.`
