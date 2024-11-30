@@ -649,4 +649,4 @@
 })(window.jQuery);
 
 // custom js for dynamic year in footer 
-document.getElementById('copy-right-text').innerText = `© ${new Date().getFullYear()} Your Company. All Rights Reserved.`
+document.getElementById('copy-right-text').innerText = `© ${new Date().getFullYear()} Clever Create. All Rights Reserved.`
