@@ -11809,3 +11809,9 @@ section{
 	box-shadow: 0px 0px 6px 0px #ffffff12;
 	min-height: 114px !important;
 }
+.mail-hover{
+	color: #fff !important;
+}
+.mail-hover:hover{
+	color: var(--theme-color) !important;
+}
