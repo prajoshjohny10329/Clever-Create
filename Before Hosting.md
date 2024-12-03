@@ -9,3 +9,27 @@ cross check previous-work.html
 ask:
     about section completed works and another things like counter
     add social media links
+
+
+new
+
+Home
+
+	Happy clients	1721+
+	Works	40+
+	Awards	10+
+
+	Service 
+		depmolitin shioft
+		Interior design and Fit Out Solution rename
+	test
+		photot content
+	
+	whatspp face web mail
+
+	wrong +91 965 684 4095	to +971 55 1479160  primary
+	+971-562865300 secondary
+	line	+971 6 530 7110
+
+	Branch Address 
+	
