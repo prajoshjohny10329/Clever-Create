@@ -11737,6 +11737,9 @@ section{
 	.header-info{
 		display: none;
 	}
+	#enquiry-btn-soical{
+		display: none;
+	}
 }
 .li-color> li{
 	color: var(--theme-color);
@@ -11814,4 +11817,11 @@ section{
 }
 .mail-hover:hover{
 	color: var(--theme-color) !important;
+}
+#enquiry-btn-soical>li>a{
+	font-size: large;
+	padding: 0px 5px;
+}
+#enquiry-btn-soical>li>a:hover{
+	color: var(--theme-color);
 }
