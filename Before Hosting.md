@@ -27,7 +27,7 @@ Home
 	
 	whatspp face web mail
 
-	wrong +91 965 684 4095	to +971 55 1479160  primary
+	wrong +971 551 479 160	to +971 55 1479160  primary
 	+971-562865300 secondary
 	line	+971 6 530 7110
 
