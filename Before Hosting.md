@@ -10,3 +10,6 @@ conclica
 csyXU6nN^/.sY,C
 https://formspree.io/f/mnnqalkj
 https://formspree.io/thanks?language=en
+
+<meta name="author" content="">
+    <meta name="robots" content="">    
